@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace In_memory_book
 {
-    public interface IBook
+     interface IBook
     {
         void AddBook(Book book);
         Book GetBook(int id);
